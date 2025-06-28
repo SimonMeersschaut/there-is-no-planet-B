@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmcp4xaoslhv3"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_7dm0k"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_ig7tw"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D_progress bar" type="Sprite2D" parent="."]
+position = Vector2(570, 50)
+scale = Vector2(400, 100)
+texture = SubResource("CanvasTexture_7dm0k")
+
+[node name="Sprite2D_grondstoffen" type="Sprite2D" parent="."]
+position = Vector2(1088, 65)
+scale = Vector2(90, 90)
+texture = SubResource("CanvasTexture_ig7tw")
