@@ -4,14 +4,9 @@
 
 [node name="Node2D" type="Node2D"]
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
-script = ExtResource("1_y3uy0")
-state = 1
-
-[node name="Polygon2D" type="Polygon2D" parent="CharacterBody2D"]
+[node name="Polygon2D" type="Polygon2D" parent="."]
 position = Vector2(10.5882, 0)
 scale = Vector2(2.17647, 2.2)
 color = Color(0.687215, 0.687215, 0.687215, 1)
 polygon = PackedVector2Array(-4.64764, 0.0318916, -9.34332, 5.57381, -9.44515, 30.5772, -6.37133, 30.5772, -9.08046, 34.7451, -0.744672, 34.6409, -3.92269, 30.5772, -0.640475, 30.5772, -0.692571, 5.58461)
-
-[node name="Timer" type="Timer" parent="CharacterBody2D"]
+script = ExtResource("1_y3uy0")

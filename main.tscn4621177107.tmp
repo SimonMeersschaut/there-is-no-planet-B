@@ -7,8 +7,8 @@
 [node name="Spaceship" parent="." instance=ExtResource("1_ig7tw")]
 position = Vector2(572, 856)
 
-[node name="Polygon2D" type="Polygon2D" parent="."]
-position = Vector2(486, 925)
+[node name="Polygon2D" type="Polygon2D" parent="Spaceship"]
+position = Vector2(-86, 69)
 polygon = PackedVector2Array(-366.437, -62.0638, -195.25, -313.138, -32.6226, -412.997, 264.102, -384.466, 475.233, -270.341, 480.939, -42.092, 329.723, 206.129, 15.8804, 271.751, -277.991, 166.186)
 uv = PackedVector2Array(-377.85, -67.7701, -255.166, -307.432, -46.8882, -412.997, 266.955, -450.088, 597.916, -276.048, 595.063, -82.0357, 389.639, 183.304, 15.8804, 271.751, -337.906, 120.536)
 
