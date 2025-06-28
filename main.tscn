@@ -1,17 +1,29 @@
-[gd_scene load_steps=3 format=3 uid="uid://dmcp4xaoslhv3"]
-
-[sub_resource type="CanvasTexture" id="CanvasTexture_7dm0k"]
-
-[sub_resource type="CanvasTexture" id="CanvasTexture_ig7tw"]
+[gd_scene format=3 uid="uid://dmcp4xaoslhv3"]
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Sprite2D_progress bar" type="Sprite2D" parent="."]
-position = Vector2(570, 50)
-scale = Vector2(400, 100)
-texture = SubResource("CanvasTexture_7dm0k")
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
 
-[node name="Sprite2D_grondstoffen" type="Sprite2D" parent="."]
-position = Vector2(1088, 65)
-scale = Vector2(90, 90)
-texture = SubResource("CanvasTexture_ig7tw")
+[node name="progress bar" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 360.0
+offset_top = 20.0
+offset_right = 760.0
+offset_bottom = 120.0
+grow_horizontal = 2
+color = Color(0.712962, 0.712962, 0.712962, 1)
+
+[node name="grondstoffen" type="ColorRect" parent="Control"]
+layout_mode = 1
+offset_left = 1030.0
+offset_top = 20.0
+offset_right = 1130.0
+offset_bottom = 120.0
+color = Color(0.713726, 0.713726, 0.713726, 1)
