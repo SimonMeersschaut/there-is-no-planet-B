@@ -23,7 +23,7 @@ offset_top = 20.0
 offset_right = 760.0
 offset_bottom = 120.0
 grow_horizontal = 2
-color = Color(0.712962, 0.712962, 0.712962, 1)
+color = Color(0.527535, 0.671382, 0.805541, 1)
 
 [node name="grondstoffen" type="ColorRect" parent="Control"]
 layout_mode = 1
@@ -31,4 +31,4 @@ offset_left = 1030.0
 offset_top = 20.0
 offset_right = 1130.0
 offset_bottom = 120.0
-color = Color(0.713726, 0.713726, 0.713726, 1)
+color = Color(0.52549, 0.670588, 0.803922, 1)
